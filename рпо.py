@@ -12,7 +12,7 @@ def read_file(filename):
                 list_of_authors.append(author)
 
     print( 'Слово \'разум\' встречается ', len(list_of_authors), ' раз')
-    print( '. '.join(list_of_authors))
+    print( ', '.join(list_of_authors))
                 
 
 def get_words(text):
